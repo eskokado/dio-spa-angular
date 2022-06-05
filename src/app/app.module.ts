@@ -9,12 +9,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { AlunosComponent } from './alunos/alunos.component';
+import { ProfessoresComponent } from './professores/professores.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AlunosComponent
+    AlunosComponent,
+    ProfessoresComponent
   ],
   imports: [
     BrowserModule,
